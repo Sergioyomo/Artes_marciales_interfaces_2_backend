@@ -2,10 +2,11 @@
 const mysql = require('mysql2');
 
 const dbConfig = {
-    host: 'localhost',
+    host: 'turntable.proxy.rlwy.net',
+    port: 32785,
     user: 'artesmarciales',
     password: 'artesmarciales',
-    database: 'Artes_Marciales',
+    database: 'railway',
     dateStrings: true
 };
 
